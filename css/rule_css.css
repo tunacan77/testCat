@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap");
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif !important;
+}
+.container_nav {
+    max-width: 1600px;
+    padding: 0 80px;
+    margin: 0 auto;
+
+}
+.container {
+    max-width: 1600px; /*1344*/
+    padding: 0 128px;
+    margin: 0 auto;
+
+}
+
+.pd_80_0 {
+    padding: 80px 0;
+}
+
+@media (max-width: 992px){
+
+    .container_nav {
+        
+        padding: 0 16px;           
+    }
+    .container {     
+        padding: 0 16px;   
+    }    
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+a {
+    display: block;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1{
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #f02d20;
+    letter-spacing: 1px;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 400;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+
+h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(160, 160, 160);
+    letter-spacing: 1px;
+}
+
+p{
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px){
+    .pd_80_0 {
+        padding: 56px 0;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 576px){
+    .pd_80_0 {
+        padding: 40px 0;
+    }
+
+
+}
